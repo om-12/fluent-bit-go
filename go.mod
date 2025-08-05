@@ -1,4 +1,4 @@
-module github.com/fluent/fluent-bit-go
+module github.com/om-12/fluent-bit-go
 
 go 1.14
 
