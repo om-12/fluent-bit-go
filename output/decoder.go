@@ -116,7 +116,7 @@ type CMetrics struct {
 	} `mapstructure:"meta"`
 	Metrics []struct {
 		Meta struct {
-			AggregationType AggregationType `mapstructure:"aggregation_type"`
+			AggregationType AggregationType `mapstructure:"aggregation_type" json:"aggregation_type"`
 			Labels          []string        `mapstructure:"labels"`
 			/* Formatted full qualified metric name is: namespace_subsystem_name */
 			Opts struct {
